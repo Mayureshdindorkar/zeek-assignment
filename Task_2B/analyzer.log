@@ -1,0 +1,23 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	analyzer
+#open	2024-03-22-01-12-46
+#fields	ts	cause	analyzer_kind	analyzer_name	uid	fuid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	failure_reason	failure_data
+#types	time	string	string	string	string	string	addr	port	addr	port	string	string
+1554.721067	violation	protocol	HTTP	CXgDVY3vzERoMCVhC5	-	10.0.2.200	49998	52.91.6.144	80	not a http reply line	-
+1557.420681	violation	protocol	HTTP	CkeyF82jBmSfI9N7	-	10.0.2.200	49999	52.91.6.144	80	not a http reply line	-
+1559.731393	violation	protocol	HTTP	Cg7X1w1WHj5tRmg8X1	-	10.0.2.200	50000	52.91.6.144	80	not a http reply line	-
+1559.994677	violation	protocol	HTTP	CmPGY62OlWx4AA2Cec	-	10.0.2.200	50001	52.91.6.144	80	not a http reply line	-
+1572.417089	violation	protocol	HTTP	CHLYMbtl9dk6LEYp3	-	10.0.2.200	50002	52.91.6.144	80	not a http reply line	-
+1575.700827	violation	protocol	HTTP	Cqhh0f3n6FetICZyZe	-	10.0.2.200	50003	52.91.6.144	80	not a http reply line	-
+1576.694362	violation	protocol	HTTP	C2Bx8F4ytrW3L2j5Fl	-	10.0.2.200	50004	52.91.6.144	80	not a http reply line	-
+1602.701508	violation	protocol	HTTP	CTtbP41QL3BEVgdGji	-	10.0.2.200	50006	52.91.6.144	80	not a http reply line	-
+1604.700554	violation	protocol	HTTP	CGlquRxnYutqdAGm4	-	10.0.2.200	50007	52.91.6.144	80	not a http reply line	-
+1605.724493	violation	protocol	HTTP	C429rL1quxSz0RciF9	-	10.0.2.200	50008	52.91.6.144	80	not a http reply line	-
+1668.009442	violation	protocol	HTTP	CIK1hS19V5SYXQMoy2	-	10.0.2.200	50016	52.91.6.144	80	not a http reply line	-
+1676.530517	violation	protocol	HTTP	CGvEpx2iCjbwqk3LHe	-	10.0.2.200	50017	52.91.6.144	80	not a http reply line	-
+1700.630341	violation	protocol	HTTP	C1meQv4wTJLzj2nVpj	-	10.0.2.200	50024	52.91.6.144	80	not a http reply line	-
+1711.778107	violation	protocol	HTTP	Cq8v0t2j5KHsgE7uU8	-	10.0.2.200	50026	52.91.6.144	80	not a http reply line	-
+#close	2024-03-22-01-12-47

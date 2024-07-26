@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2024-03-30-17-26-56
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	curve	server_name	resumed	last_alert	next_protocol	established	ssl_history	cert_chain_fps	client_cert_chain_fps	sni_matches_cert
+#types	time	string	addr	port	addr	port	string	string	string	string	bool	string	string	bool	string	vector[string]	vector[string]	bool
+1711798674.216402	CwsTYJ5PhMCjQs4M4	192.168.0.104	55158	104.154.89.105	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	secp256r1	self-signed.badssl.com	F	-	http/1.1	T	CsxknGIti	faa43dcd57768ea79a7638120b8a70dfdf27da9546a38c4c8123220371627af6	(empty)	T
+1711798674.219459	CvQe483o0jcMlOzj8	192.168.0.104	55154	104.154.89.105	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	secp256r1	self-signed.badssl.com	F	-	http/1.1	T	CsxknGIti	faa43dcd57768ea79a7638120b8a70dfdf27da9546a38c4c8123220371627af6	(empty)	T
+1711798674.466385	CAX1RObU1QXzxHHTl	192.168.0.104	55162	104.154.89.105	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	secp256r1	self-signed.badssl.com	F	-	http/1.1	T	CsxknGIti	faa43dcd57768ea79a7638120b8a70dfdf27da9546a38c4c8123220371627af6	(empty)	T
+#close	2024-03-30-17-26-56
